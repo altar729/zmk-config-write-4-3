@@ -1,0 +1,7 @@
+if SHIELD_WRITE40V3_1
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Write40 v3.1"
+
+endif
