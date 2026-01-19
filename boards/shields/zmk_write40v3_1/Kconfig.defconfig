@@ -1,0 +1,6 @@
+if SHIELD_ZMK_WRITE40V3_1
+
+config ZMK_KEYBOARD_NAME
+    default "Write40v3_1"
+
+endif # SHIELD_ZMK_WRITE40V3_1
