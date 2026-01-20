@@ -3,10 +3,9 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        //zmk,matrix-transform = &default_transform;
+        zmk,matrix-transform = &default_transform;
     };
 
-    /*
     default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         columns = <12>;
@@ -19,7 +18,6 @@
         RC(3,0) RC(3,1) RC(3,2) RC(3,3)         RC(3,5) RC(3,6) RC(3,7) RC(3,8)         RC(3,10) RC(3,11)
         >;
     };
-    */
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
